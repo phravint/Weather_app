@@ -1,0 +1,54 @@
+# Weather App
+
+## Overview
+
+The Weather App is a responsive web application that provides real-time weather information using the OpenWeatherMap API. Users can enter a city name to retrieve current weather conditions, hourly forecasts, and a 5-day weather summary. The app features animated weather icons and a user-friendly interface designed with a black and orange color theme.
+
+## Features
+
+- **City Search**: Users can input a city name to retrieve weather data.
+- **Current Weather Display**: Shows current temperature, weather conditions, humidity, and wind speed in a single row with images for each condition.
+- **5-Day Weather Summary**: Displays a forecast for the next five days.
+- **Hourly Forecast**: Provides detailed weather information for the upcoming hours.
+- **Alerts**: Triggers a console alert when the temperature exceeds 35°C.
+- **Responsive Design**: The app is designed to be fully responsive, ensuring a great user experience across devices.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+- Visual Studio Code (for development)
+
+## Installation
+
+To run the Weather App locally, follow these steps:
+
+# Weather App
+
+## Overview
+
+The Weather App is a responsive web application that provides real-time weather information using the OpenWeatherMap API. Users can enter a city name to retrieve current weather conditions, hourly forecasts, and a 5-day weather summary. The app features animated weather icons and a user-friendly interface designed with a black and orange color theme.
+
+## Features
+
+- **City Search**: Users can input a city name to retrieve weather data.
+- **Current Weather Display**: Shows current temperature, weather conditions, humidity, and wind speed in a single row with images for each condition.
+- **5-Day Weather Summary**: Displays a forecast for the next five days.
+- **Hourly Forecast**: Provides detailed weather information for the upcoming hours.
+- **Alerts**: Triggers a console alert when the temperature exceeds 35°C.
+- **Responsive Design**: The app is designed to be fully responsive, ensuring a great user experience across devices.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+- Visual Studio Code (for development)
+
+## Installation
+
+To run the Weather App locally i used git by pushing it into repository
+link to visit my weatherapp : https://phravint.github.io/Weather_app/
