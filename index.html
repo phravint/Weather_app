@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="weather-info">
+            <h2 id="city-name"></h2>
+            <div class="weather-details">
+                <div class="weather-item">
+                    <img id="temp-icon" src="" alt="Temperature Icon">
+                    <p id="temperature"></p>
+                </div>
+                <div class="weather-item">
+                    <img id="weather-icon" src="" alt="Weather Icon">
+                    <p id="weather"></p>
+                </div>
+                <div class="weather-item">
+                    <img id="humidity-icon" src="https://img.icons8.com/ios-filled/50/ffffff/humidity.png" alt="Humidity Icon">
+                    <p id="humidity"></p>
+                </div>
+                <div class="weather-item">
+                    <img id="wind-icon" src="https://img.icons8.com/ios-filled/50/ffffff/wind.png" alt="Wind Icon">
+                    <p id="wind"></p>
+                </div>
+            </div>
+            <div class="forecast-container">
+                <div class="five-day-forecast">
+                    <h2>5-Day Forecast</h2>
+                    <div id="five-day"></div>
+                </div>
+                <div class="hourly-forecast">
+                    <h2>Hourly Forecast</h2>
+                    <div id="hourly"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="weather-summary" class="weather-summary" style="display: none;">
+        <h2>Weather Summary</h2>
+        <p id="avg-temp"></p>
+        <p id="max-temp"></p>
+        <p id="min-temp"></p>
+        <p id="dominant-weather"></p>
+        <p id="reason"></p>
+        <p id="current-date"></p> <!-- Added date display -->
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
